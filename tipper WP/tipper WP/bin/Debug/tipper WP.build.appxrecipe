@@ -7,79 +7,85 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>52b5c114-9658-4725-a49a-03f0d8c7984f</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\tipper WP.exe">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\tipper WP.exe">
       <PackagePath>tipper WP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\Confirmation.jpg">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\Confirmation.jpg">
       <PackagePath>Assets\Confirmation.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\Tippr Logo.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\Tippr Logo.png">
       <PackagePath>Assets\Tippr Logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\confirm.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Assets\mainpage.xbf">
+      <PackagePath>Assets\mainpage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\confirm.xbf">
       <PackagePath>confirm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\confrimtip.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\confrimtip.xbf">
       <PackagePath>confrimtip.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\register screen.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\menu.xbf">
+      <PackagePath>menu.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\register screen.xbf">
       <PackagePath>register screen.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\scannerxaml.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\scannerxaml.xbf">
       <PackagePath>scannerxaml.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\Settings.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Settings.xbf">
       <PackagePath>Settings.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\tipping.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\tipping.xbf">
       <PackagePath>tipping.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\wallet.xbf">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\wallet.xbf">
       <PackagePath>wallet.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\tipper WP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\tipper WP.xr.xml">
       <PackagePath>tipper WP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

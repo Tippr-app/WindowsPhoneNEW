@@ -1,1 +1,1 @@
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhone\tipper WP\tipper WP\tipper WP.csproj;neutral
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\tipper WP.csproj;neutral

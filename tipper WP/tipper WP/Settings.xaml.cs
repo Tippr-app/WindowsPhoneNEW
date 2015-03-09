@@ -43,12 +43,17 @@ namespace tipper_WP
 
         private void confirmButtonUser_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(menu));
         }
 
         private void goback_SelectionChanged(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(tipping));
+        }
+
+        private void goback_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(menu));
         }
     }
 }

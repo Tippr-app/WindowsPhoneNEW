@@ -57,7 +57,7 @@ namespace tipper_WP
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(scannerxaml));
+            Frame.Navigate(typeof(menu));
         }
     }
 }

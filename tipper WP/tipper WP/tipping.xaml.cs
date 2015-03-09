@@ -45,5 +45,20 @@ namespace tipper_WP
         {
             Frame.Navigate(typeof(scannerxaml));
         }
+
+        private void quickTip1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(tipping));
+        }
+
+        private void quickTip2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(tipping));
+        }
+
+        private void quickTip3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(tipping));
+        }
     }
 }

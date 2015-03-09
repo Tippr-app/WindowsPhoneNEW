@@ -15,7 +15,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="243,230,0,0" TextWrapping="Wrap" Text="Has been tipped to" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock x:Name="tipeenametext" HorizontalAlignment="Left" Margin="170,297,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>
         <Image HorizontalAlignment="Left" Height="630" VerticalAlignment="Top" Width="400" Source="Assets/Confirmation.jpg"/>
-        <Image HorizontalAlignment="Left" Height="630" VerticalAlignment="Top" Width="400" Source="Assets/Confirmation.jpg"/>
+        <Image HorizontalAlignment="Left" Height="630" VerticalAlignment="Top" Width="400" Source="Assets/Confirmation.jpg" Tapped="Image_Tapped"/>
 
     </Grid>
 </Page>

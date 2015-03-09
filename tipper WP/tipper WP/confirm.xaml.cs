@@ -35,5 +35,11 @@ namespace tipper_WP
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+
+        }
     }
 }

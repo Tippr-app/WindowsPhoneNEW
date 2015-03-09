@@ -19,9 +19,15 @@
         <TextBlock x:Name="cardNumTitle" HorizontalAlignment="Left" Margin="104,407,0,0" TextWrapping="Wrap" Text="Card Num:" VerticalAlignment="Top"/>
         <TextBlock x:Name="expDateTitle" HorizontalAlignment="Left" Margin="104,434,0,0" TextWrapping="Wrap" Text="Exp. Date:" VerticalAlignment="Top"/>
         <TextBlock x:Name="nameoncardTitle" HorizontalAlignment="Left" Margin="104,467,0,0" TextWrapping="Wrap" Text="Name on Card:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="secNumTitle" HorizontalAlignment="Left" Margin="104,497,0,0" TextWrapping="Wrap" Text="Security Number:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top"/>
+        <TextBlock x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Tapped="goback_Tapped"/>
         <TextBlock x:Name="settings" HorizontalAlignment="Left" Margin="332,12,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top" Tapped="settings_Tapped"/>
+        <TextBlock x:Name="cardnum" HorizontalAlignment="Left" Margin="174,407,0,0" TextWrapping="Wrap" Text="xxxx-xxxx-xxxx-1234" VerticalAlignment="Top"/>
+        <TextBlock x:Name="expDate" HorizontalAlignment="Left" Margin="174,437,0,0" TextWrapping="Wrap" Text="01/19" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cardname" HorizontalAlignment="Left" Margin="182,467,0,0" TextWrapping="Wrap" Text="test user" VerticalAlignment="Top"/>
+        <TextBlock x:Name="cardnum_Copy" HorizontalAlignment="Left" Margin="174,333,0,0" TextWrapping="Wrap" Text="testuser@tippr.io" VerticalAlignment="Top"/>
+        <TextBlock x:Name="balenceTitle_Copy" HorizontalAlignment="Left" Margin="142,210,0,0" TextWrapping="Wrap" Text="$25.00" VerticalAlignment="Top"/>
+        <TextBox x:Name="amountbox" HorizontalAlignment="Left" Margin="104,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="add_funds_button" Content="Add" HorizontalAlignment="Left" Margin="147,520,0,0" VerticalAlignment="Top" Click="add_funds_button_Click"/>
 
     </Grid>
 </Page>

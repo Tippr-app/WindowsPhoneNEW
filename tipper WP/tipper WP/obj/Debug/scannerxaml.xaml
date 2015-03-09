@@ -11,13 +11,13 @@
     <Grid>
         <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
         <TextBlock x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top"/>
-        <TextBlock x:Name="settings" HorizontalAlignment="Left" Margin="332,12,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='1' x:Name="settings" HorizontalAlignment="Left" Margin="332,12,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top"                         />
         <Image HorizontalAlignment="Left" Height="275" Margin="55,98,0,0" VerticalAlignment="Top" Width="285"/>
         <TextBox x:Name="manual_code" HorizontalAlignment="Left" Margin="155,439,0,0" TextWrapping="Wrap" Text="code" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='1' x:Name="entercode" HorizontalAlignment="Left" Margin="136,530,0,0" VerticalAlignment="Top"                        >
-            <Button x:ConnectionId='3' x:Name="entercode_Copy" Content="Enter" HorizontalAlignment="Left" VerticalAlignment="Top"                        />
+        <Button x:ConnectionId='2' x:Name="entercode" HorizontalAlignment="Left" Margin="136,530,0,0" VerticalAlignment="Top"                        >
+            <Button x:ConnectionId='4' x:Name="entercode_Copy" Content="Enter" HorizontalAlignment="Left" VerticalAlignment="Top"                        />
         </Button>
-        <TextBlock x:ConnectionId='2' x:Name="code_bale" HorizontalAlignment="Left" Margin="85,453,0,0" TextWrapping="Wrap" Text="enter code" VerticalAlignment="Top" RenderTransformOrigin="0.111,-0.385"                                              />
+        <TextBlock x:ConnectionId='3' x:Name="code_bale" HorizontalAlignment="Left" Margin="85,453,0,0" TextWrapping="Wrap" Text="enter code" VerticalAlignment="Top" RenderTransformOrigin="0.111,-0.385"                                              />
 
     </Grid>
 </Page>

@@ -40,5 +40,15 @@ namespace tipper_WP
         {
             Frame.Navigate(typeof(tipping));
         }
+
+        private void goback_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(menu));
+        }
+
+        private void add_funds_button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(menu));
+        }
     }
 }
