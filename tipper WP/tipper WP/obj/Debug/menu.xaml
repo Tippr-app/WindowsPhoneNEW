@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="tipper_WP.menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+        <Button x:ConnectionId='1' x:Name="wallent_button_" Content="Wallet" HorizontalAlignment="Stretch" Margin="65,210,81,373" VerticalAlignment="Center"                              />
+        <Button x:ConnectionId='2' x:Name="Tip_Button" Content="Tip" HorizontalAlignment="Stretch" Margin="65,295,81,288" VerticalAlignment="Center"                         />
+        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+        <TextBlock x:ConnectionId='3' x:Name="settings" HorizontalAlignment="Right" Margin="312,10,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top"                                                                       Height="56" Width="78"/>
+
+    </Grid>
+</Page>
+
