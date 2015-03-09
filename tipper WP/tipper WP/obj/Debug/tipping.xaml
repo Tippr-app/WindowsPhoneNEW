@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="tipper_WP.tipping"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+        <TextBlock x:Name="ammountTitle" HorizontalAlignment="Left" Margin="42,267,0,0" TextWrapping="Wrap" Text="Ammount:   $" VerticalAlignment="Top" FontSize="16" />
+        <TextBlock x:ConnectionId='1' x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top"                       />
+        <TextBlock x:Name="settings" HorizontalAlignment="Left" Margin="332,12,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top"/>
+        <TextBox x:Name="ammountBox" HorizontalAlignment="Left" Margin="162,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.332,0.155" Height="19" Width="171"/>
+        <Button x:ConnectionId='2' x:Name="confirmAmount" Content="Confirm" HorizontalAlignment="Right" Margin="0,296,29,0" VerticalAlignment="Top"                            />
+        <TextBlock x:Name="quickTipTitle" HorizontalAlignment="Left" Margin="42,344,0,0" TextWrapping="Wrap" Text="Quick Tip:" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="quickTip1" Content="quickTip1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145.5,380,145.5,0"/>
+        <Button x:Name="quickTip2" Content="quickTip2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,463,146,0"/>
+        <Button x:Name="quickTip3" Content="quickTip3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,552,146,0"/>
+        <TextBlock x:Name="scannedtext" HorizontalAlignment="Left" Margin="112,189,0,0" TextWrapping="Wrap" Text="QR Code Scanned!" VerticalAlignment="Top" FontSize="22"/>
+
+    </Grid>
+</Page>
+

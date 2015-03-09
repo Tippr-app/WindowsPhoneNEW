@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="tipper_WP.wallet"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+        <TextBlock x:Name="VirtualWalletTitle" HorizontalAlignment="Left" Margin="25,170,0,0" TextWrapping="Wrap" Text=" Virtual Wallet" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="balenceTitle" HorizontalAlignment="Left" Margin="50,210,0,0" TextWrapping="Wrap" Text="Avalible Balence:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="AddfuntTitle" HorizontalAlignment="Left" Margin="25,243,0,0" TextWrapping="Wrap" Text="Add Funds" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="amountTitle" HorizontalAlignment="Left" Margin="50,298,0,0" TextWrapping="Wrap" Text="Amount:" VerticalAlignment="Top"/>
+        <RadioButton Content="PayPal" HorizontalAlignment="Left" Margin="50,317,0,0" VerticalAlignment="Top" Height="62" Width="42" FontSize="11"/>
+        <RadioButton x:Name="creditselect" Content="Credit Card" HorizontalAlignment="Left" Margin="50,360,0,0" VerticalAlignment="Top" Height="62" Width="42" FontSize="11" />
+        <TextBlock x:Name="cardNumTitle" HorizontalAlignment="Left" Margin="104,407,0,0" TextWrapping="Wrap" Text="Card Num:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="expDateTitle" HorizontalAlignment="Left" Margin="104,434,0,0" TextWrapping="Wrap" Text="Exp. Date:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="nameoncardTitle" HorizontalAlignment="Left" Margin="104,467,0,0" TextWrapping="Wrap" Text="Name on Card:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="secNumTitle" HorizontalAlignment="Left" Margin="104,497,0,0" TextWrapping="Wrap" Text="Security Number:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top"/>
+        <TextBlock x:Name="settings" HorizontalAlignment="Left" Margin="332,12,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

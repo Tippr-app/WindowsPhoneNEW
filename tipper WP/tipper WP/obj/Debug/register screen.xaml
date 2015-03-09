@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="tipper_WP.register_screen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+        <TextBlock x:Name="AccountInfoTitle" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" Text="Account Information" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="usernameLabel" HorizontalAlignment="Left" Margin="50,187,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="passwordLabel" HorizontalAlignment="Left" Margin="50,214,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="passwordLabel_Copy" HorizontalAlignment="Left" Margin="50,239,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="emailLabel" HorizontalAlignment="Left" Margin="50,267,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="mailingAddressLable" HorizontalAlignment="Left" Margin="10,295,0,0" TextWrapping="Wrap" Text="Mailing Address:" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="address1Lable" HorizontalAlignment="Left" Margin="50,330,0,0" TextWrapping="Wrap" Text="Address 1:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="address2Lable" HorizontalAlignment="Left" Margin="50,359,0,0" TextWrapping="Wrap" Text="Address 2:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="___cityLable" HorizontalAlignment="Left" Margin="50,389,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="stateLable" HorizontalAlignment="Left" Margin="50,427,0,0" TextWrapping="Wrap" Text="State:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="___ZipLable" HorizontalAlignment="Left" Margin="50,452,0,0" TextWrapping="Wrap" Text="Zipcode:" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='1' x:Name="confirmButtonUser" Content="Confirm" HorizontalAlignment="Right" Margin="0,0,35,34" VerticalAlignment="Bottom"                                />
+
+    </Grid>
+</Page>
+

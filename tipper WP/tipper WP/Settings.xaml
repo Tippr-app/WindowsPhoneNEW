@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="tipper_WP.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer Margin="10,0.333,10,-153.333" Height="793" VerticalAlignment="Top" 
+  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Enabled"
+  AllowDrop="False" BringIntoViewOnFocusChange="True"
+  HorizontalScrollMode="Disabled" IsHoldingEnabled="True" >
+
+        <Grid>
+            <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+
+            <ListView HorizontalAlignment="Left" Height="100" Margin="235,343,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBlock x:Name="Settings_Title_" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" Text="Change Password" VerticalAlignment="Top" FontSize="14" SelectionChanged="AccountInfoTitle_SelectionChanged"/>
+            <TextBlock x:Name="old_pass_label" HorizontalAlignment="Left" Margin="50,187,0,0" TextWrapping="Wrap" Text="Old Password" VerticalAlignment="Top"/>
+            <TextBlock x:Name="passwordLabel" HorizontalAlignment="Left" Margin="50,214,0,0" TextWrapping="Wrap" Text="new Password:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="passwordLabel_Copy" HorizontalAlignment="Left" Margin="50,239,0,0" TextWrapping="Wrap" Text="oldPassword:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="emailLabel" HorizontalAlignment="Left" Margin="50,279,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="change_email_lable_" HorizontalAlignment="Left" Margin="10,257,0,0" TextWrapping="Wrap" Text="Change Email" VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="address1Lable" HorizontalAlignment="Left" Margin="50,330,0,0" TextWrapping="Wrap" Text="Address 1:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="address2Lable" HorizontalAlignment="Left" Margin="50,359,0,0" TextWrapping="Wrap" Text="Address 2:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="___cityLable" HorizontalAlignment="Left" Margin="50,389,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="stateLable" HorizontalAlignment="Left" Margin="50,427,0,0" TextWrapping="Wrap" Text="State:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="___ZipLable" HorizontalAlignment="Left" Margin="50,452,0,0" TextWrapping="Wrap" Text="Zipcode:" VerticalAlignment="Top"/>
+            <Button x:Name="confirmButtonUser" Content="Confirm" HorizontalAlignment="Right" Margin="0,0,36,1" VerticalAlignment="Bottom" Click="confirmButtonUser_Click"/>
+            <TextBlock x:Name="change_mail" HorizontalAlignment="Left" Margin="10,308,0,0" TextWrapping="Wrap" Text="Change MAiling address" VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="chagne_pay_title_" HorizontalAlignment="Left" Margin="10,477,0,0" TextWrapping="Wrap" Text="Change payment " VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="PayPal" HorizontalAlignment="Left" Margin="50,513,0,0" TextWrapping="Wrap" Text="PayPal" VerticalAlignment="Top"/>
+            <TextBlock x:Name="Credit_Card_title_" HorizontalAlignment="Left" Margin="50,543,0,0" TextWrapping="Wrap" Text="CreditCard" VerticalAlignment="Top"/>
+            <TextBlock x:Name="card_num_lable_" HorizontalAlignment="Left" Margin="71,570,0,0" TextWrapping="Wrap" Text="New Card Number" VerticalAlignment="Top"/>
+            <TextBlock x:Name="address2Lable_Copy" HorizontalAlignment="Left" Margin="71,600,0,0" TextWrapping="Wrap" Text="Exp Date" VerticalAlignment="Top" RenderTransformOrigin="1.3,11.09"/>
+            <DatePicker HorizontalAlignment="Left" Margin="131,579,0,0" VerticalAlignment="Top" FontSize="6"/>
+            <TextBlock x:Name="ccv_labe_" HorizontalAlignment="Left" Margin="71,633,0,0" TextWrapping="Wrap" Text="ccv" VerticalAlignment="Top"/>
+            <Button x:Name="newQR_button_" Content="New QR Code" HorizontalAlignment="Right" Margin="0,0,206,62" VerticalAlignment="Bottom" Click="confirmButtonUser_Click"/>
+            <TextBlock x:Name="goback" HorizontalAlignment="Left" Margin="18,12,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Tapped="goback_Tapped" SelectionChanged="goback_SelectionChanged"/>
+        </Grid>
+    </ScrollViewer>
+
+
+
+</Page>
