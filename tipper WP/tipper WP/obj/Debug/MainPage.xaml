@@ -9,13 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button x:ConnectionId='1' Name="ButtonLogin"                           
+                Visibility="Visible" Margin="145,479,0,104">Sign in</Button>
         <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
         <TextBlock x:Name="usernameTitle" HorizontalAlignment="Left" Margin="30,175,0,0" TextWrapping="Wrap" Text="User Name:" VerticalAlignment="Top"/>
         <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Margin="30,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325"/>
         <TextBlock x:Name="passwordTitle" HorizontalAlignment="Left" Margin="30,271,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="30,303,0,0" VerticalAlignment="Top" Width="325"/>
-        <Button x:ConnectionId='1' x:Name="loginButton" Content="Log-In" HorizontalAlignment="Center" Margin="145.5,419,145.5,0" VerticalAlignment="Top"                          />
-        <TextBlock x:ConnectionId='2' x:Name="newuserTitle" HorizontalAlignment="Center" Margin="174.162,0,173.838,75.2" TextWrapping="Wrap" Text="New User?" VerticalAlignment="Bottom"                                                                              />
+        <Button x:ConnectionId='2' x:Name="loginButton" Content="Log-In" HorizontalAlignment="Center" Margin="145.5,419,145.5,0" VerticalAlignment="Top"                          />
+        <TextBlock x:ConnectionId='3' x:Name="newuserTitle" HorizontalAlignment="Center" Margin="174.162,0,173.838,75.2" TextWrapping="Wrap" Text="New User?" VerticalAlignment="Bottom"                                                                              />
         <TextBlock x:Name="forgotUset" HorizontalAlignment="Right" Margin="0,243,51.697,0" TextWrapping="Wrap" Text="forgot user name?" VerticalAlignment="Top"/>
         <TextBlock x:Name="forgotPassword" HorizontalAlignment="Right" Margin="0,355,51.937,0" TextWrapping="Wrap" Text="forgot password?" VerticalAlignment="Top"/>
 

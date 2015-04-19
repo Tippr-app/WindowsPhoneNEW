@@ -9,6 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button Name="ButtonLogin" Click="ButtonLogin_Click" 
+                Visibility="Visible" Margin="145,479,0,104">Sign in</Button>
         <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
         <TextBlock x:Name="usernameTitle" HorizontalAlignment="Left" Margin="30,175,0,0" TextWrapping="Wrap" Text="User Name:" VerticalAlignment="Top"/>
         <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Margin="30,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325"/>

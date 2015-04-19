@@ -12,6 +12,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
+
+using Microsoft.WindowsAzure.MobileServices;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -21,7 +25,25 @@ namespace tipper_WP
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class menu : Page
+    
+    
     {
+        private MobileServiceCollection<Item, Item> items;
+        private IMobileServiceTable<Item> itemTable = App.MobileService.GetTable<Item>();
+
+        public static MobileServiceClient MobileService = new MobileServiceClient(
+       "https://tippr.azure-mobile.net/",
+       "wquGAwtmSIqqGvoTCqrigaqsSljhPh78");
+
+        private async Task InsertTodoItem(Item todoItem)
+        {
+            // This code inserts a new TodoItem into the database. When the operation completes
+            // and Mobile Services has assigned an Id, the item is added to the CollectionView
+            await itemTable.InsertAsync(todoItem);
+            items.Add(todoItem);
+
+            //await SyncAsync(); // offline sync
+        }
         public menu()
         {
             this.InitializeComponent();
@@ -36,8 +58,11 @@ namespace tipper_WP
         {
         }
 
-        private void wallent_button__Click(object sender, RoutedEventArgs e)
+        private async void wallent_button__Click(object sender, RoutedEventArgs e)
         {
+
+            var todoItem = new Item { Text="this" };
+            await InsertTodoItem(todoItem);
             Frame.Navigate(typeof(wallet));
         }
 

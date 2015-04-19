@@ -142,3 +142,27 @@ C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\ProjectArchitectures.txt
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\tipper WP.exe.config
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\tipper WP.csproj.GenerateResource.Cache
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile.pri
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\qualifiers.txt
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\tipper WP.csprojResolveAssemblyReference.cache
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml.intermediate
