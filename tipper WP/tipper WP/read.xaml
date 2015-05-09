@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="tipper_wp.read"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP.read"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   DataContext="{Binding RelativeSource={RelativeSource self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid ManipulationMode="All">
+
+        
+        <Polyline x:Name="BarcodeOutline" Stroke="Red" StrokeThickness="3" ManipulationMode="All"/>
+        <TextBlock x:Name="TextLog" VerticalAlignment="Bottom" FontSize="24" ManipulationMode="All"/>
+        <Button x:Name="Snap" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Snap" Click="Snap_Click"/>
+        <CaptureElement x:Name="preview" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="400"/>
+
+    </Grid>
+</Page>

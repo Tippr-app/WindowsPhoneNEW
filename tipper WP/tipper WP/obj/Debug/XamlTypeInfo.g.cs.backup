@@ -124,29 +124,33 @@ namespace tipper_WP.tipper_WP_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
-            _typeNameTable[0] = "tipper_WP.confirm";
+            _typeNameTable = new string[12];
+            _typeNameTable[0] = "tipper_WP.Assets.mainpage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "tipper_WP.confrimtip";
-            _typeNameTable[4] = "tipper_WP.MainPage";
-            _typeNameTable[5] = "tipper_WP.register_screen";
-            _typeNameTable[6] = "tipper_WP.scannerxaml";
-            _typeNameTable[7] = "tipper_WP.Settings";
-            _typeNameTable[8] = "tipper_WP.tipping";
-            _typeNameTable[9] = "tipper_WP.wallet";
+            _typeNameTable[3] = "tipper_WP.confirm";
+            _typeNameTable[4] = "tipper_WP.confrimtip";
+            _typeNameTable[5] = "tipper_WP.MainPage";
+            _typeNameTable[6] = "tipper_WP.menu";
+            _typeNameTable[7] = "tipper_WP.qrscan";
+            _typeNameTable[8] = "tipper_WP.register_screen";
+            _typeNameTable[9] = "tipper_WP.Settings";
+            _typeNameTable[10] = "tipper_WP.tipping";
+            _typeNameTable[11] = "tipper_WP.wallet";
 
-            _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::tipper_WP.confirm);
+            _typeTable = new global::System.Type[12];
+            _typeTable[0] = typeof(global::tipper_WP.Assets.mainpage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::tipper_WP.confrimtip);
-            _typeTable[4] = typeof(global::tipper_WP.MainPage);
-            _typeTable[5] = typeof(global::tipper_WP.register_screen);
-            _typeTable[6] = typeof(global::tipper_WP.scannerxaml);
-            _typeTable[7] = typeof(global::tipper_WP.Settings);
-            _typeTable[8] = typeof(global::tipper_WP.tipping);
-            _typeTable[9] = typeof(global::tipper_WP.wallet);
+            _typeTable[3] = typeof(global::tipper_WP.confirm);
+            _typeTable[4] = typeof(global::tipper_WP.confrimtip);
+            _typeTable[5] = typeof(global::tipper_WP.MainPage);
+            _typeTable[6] = typeof(global::tipper_WP.menu);
+            _typeTable[7] = typeof(global::tipper_WP.qrscan);
+            _typeTable[8] = typeof(global::tipper_WP.register_screen);
+            _typeTable[9] = typeof(global::tipper_WP.Settings);
+            _typeTable[10] = typeof(global::tipper_WP.tipping);
+            _typeTable[11] = typeof(global::tipper_WP.wallet);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,14 +185,16 @@ namespace tipper_WP.tipper_WP_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_confirm() { return new global::tipper_WP.confirm(); }
-        private object Activate_3_confrimtip() { return new global::tipper_WP.confrimtip(); }
-        private object Activate_4_MainPage() { return new global::tipper_WP.MainPage(); }
-        private object Activate_5_register_screen() { return new global::tipper_WP.register_screen(); }
-        private object Activate_6_scannerxaml() { return new global::tipper_WP.scannerxaml(); }
-        private object Activate_7_Settings() { return new global::tipper_WP.Settings(); }
-        private object Activate_8_tipping() { return new global::tipper_WP.tipping(); }
-        private object Activate_9_wallet() { return new global::tipper_WP.wallet(); }
+        private object Activate_0_mainpage() { return new global::tipper_WP.Assets.mainpage(); }
+        private object Activate_3_confirm() { return new global::tipper_WP.confirm(); }
+        private object Activate_4_confrimtip() { return new global::tipper_WP.confrimtip(); }
+        private object Activate_5_MainPage() { return new global::tipper_WP.MainPage(); }
+        private object Activate_6_menu() { return new global::tipper_WP.menu(); }
+        private object Activate_7_qrscan() { return new global::tipper_WP.qrscan(); }
+        private object Activate_8_register_screen() { return new global::tipper_WP.register_screen(); }
+        private object Activate_9_Settings() { return new global::tipper_WP.Settings(); }
+        private object Activate_10_tipping() { return new global::tipper_WP.tipping(); }
+        private object Activate_11_wallet() { return new global::tipper_WP.wallet(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -200,9 +206,9 @@ namespace tipper_WP.tipper_WP_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  tipper_WP.confirm
+            case 0:   //  tipper_WP.Assets.mainpage
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_confirm;
+                userType.Activator = Activate_0_mainpage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -215,51 +221,65 @@ namespace tipper_WP.tipper_WP_XamlTypeInfo
                 xamlType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  tipper_WP.confrimtip
+            case 3:   //  tipper_WP.confirm
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_confrimtip;
+                userType.Activator = Activate_3_confirm;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  tipper_WP.MainPage
+            case 4:   //  tipper_WP.confrimtip
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_confrimtip;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  tipper_WP.register_screen
+            case 5:   //  tipper_WP.MainPage
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_register_screen;
+                userType.Activator = Activate_5_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  tipper_WP.scannerxaml
+            case 6:   //  tipper_WP.menu
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_scannerxaml;
+                userType.Activator = Activate_6_menu;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  tipper_WP.Settings
+            case 7:   //  tipper_WP.qrscan
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Settings;
+                userType.Activator = Activate_7_qrscan;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  tipper_WP.tipping
+            case 8:   //  tipper_WP.register_screen
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_tipping;
+                userType.Activator = Activate_8_register_screen;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  tipper_WP.wallet
+            case 9:   //  tipper_WP.Settings
                 userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_wallet;
+                userType.Activator = Activate_9_Settings;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  tipper_WP.tipping
+                userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_tipping;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  tipper_WP.wallet
+                userType = new global::tipper_WP.tipper_WP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_wallet;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

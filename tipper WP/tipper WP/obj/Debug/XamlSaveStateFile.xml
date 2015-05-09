@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\morris lowitz\documents\github\windowsphone\tipper wp\tipper wp\obj\debug\intermediatexaml\tipper wp.exe" HashGuid="d3aec17e-3330-8f24-4a63-82081a346006" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\downloads\zxing.net.0.14.0.0\winrt\zxing.winrt.dll" HashGuid="6c94acae-3670-248a-55c9-a778d0a83f00" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

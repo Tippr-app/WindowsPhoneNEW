@@ -43,7 +43,7 @@ namespace tipper_WP
 
         private void goback_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(scannerxaml));
+            Frame.Navigate(typeof(read));
         }
 
         private void quickTip1_Click(object sender, RoutedEventArgs e)

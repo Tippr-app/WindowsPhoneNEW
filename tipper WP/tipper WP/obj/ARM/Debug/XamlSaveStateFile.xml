@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81-hidden\arm\lumia.imaging.managed.dll" HashGuid="4995ac95-997b-6a34-dd96-7fb05ef15210" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81\arm\lumia.imaging.winmd" HashGuid="d16e02ff-554c-0883-c15e-9c1ee6c065c5" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81\arm\lumia.interopservices.windowsruntime.winmd" HashGuid="be026b97-4e17-03e1-494d-e8a25f3c2582" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\win2d.0.0.16\bin\phone\arm\microsoft.graphics.canvas.numerics.dll" HashGuid="53b04cc0-cebe-de82-c242-0343c2ddb74f" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\win2d.0.0.16\bin\phone\arm\microsoft.graphics.canvas.winmd" HashGuid="8cd9b723-275f-8932-acda-dc1d490b723e" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\mmaitre.videoeffects.2.3.0\lib\portable-netcore451+wpa81\videoeffectextensions.dll" HashGuid="9877d2f6-2d07-570b-b509-0d9d6a178464" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\packages\mmaitre.videoeffects.2.3.0\build\native\windowsphone\arm\videoeffects.winmd" HashGuid="87722979-a09e-3c79-f352-47bbee48a4d7" />
+    <ReferenceAssembly PathName="c:\users\morris lowitz\downloads\videoeffect-master\videoeffect-master\videoeffects\packages\zxing.net.0.14.0.1\lib\windows8\zxing.winmd" HashGuid="a78fc7f8-dd46-b4f1-5011-27b2896bf3e2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
