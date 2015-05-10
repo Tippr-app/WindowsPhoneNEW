@@ -11,8 +11,6 @@ C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\MainPage.g.cs
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\menu.g.i.cs
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\menu.g.cs
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qrscan.g.i.cs
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qrscan.g.cs
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\register screen.g.i.cs
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\register screen.g.cs
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Settings.g.i.cs
@@ -43,9 +41,61 @@ C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\tipping.xbf
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\wallet.xbf
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\XamlSaveStateFile.xml
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qrscan.xaml
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qrscan.xbf
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\read.g.i.cs
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\read.g.cs
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\read.xaml
-C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\read.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\App.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Assets\mainpage.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\confirm.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\confrimtip.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\MainPage.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\menu.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\register screen.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Settings.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\test.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\tipping.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\wallet.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\tipper WP.xr.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\tipper WP.exe
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\tipper WP.pdb
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\resources.pri
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\AppxManifest.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\tipper WP.build.appxrecipe
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.Imaging.Managed.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.Imaging.winmd
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.InteropServices.WindowsRuntime.winmd
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Microsoft.Graphics.Canvas.Numerics.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\VideoEffectExtensions.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\VideoEffects.winmd
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\ZXing.winmd
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Microsoft.Graphics.Canvas.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Microsoft.Graphics.Canvas.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\VideoEffectExtensions.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\ZXing.pdb
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\ZXing.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\ZXing.pri
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.Imaging.Managed.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.Imaging.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.Imaging.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.InteropServices.WindowsRuntime.dll
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Lumia.InteropServices.WindowsRuntime.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\VideoEffects.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Microsoft.Graphics.Canvas.Numerics.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\test.g.i.cs
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\test.g.cs
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\test.xaml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\test.xbf
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\tipper WP.exe
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\tipper WP.pdb
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\tipper WP.csproj.GenerateResource.Cache
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\priconfig.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\layout.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\resources.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\pri.resfiles
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qualifiers.txt
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ZXing.pri.xml
+C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ProjectArchitectures.txt

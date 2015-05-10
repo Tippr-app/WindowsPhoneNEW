@@ -63,7 +63,7 @@ namespace tipper_WP
 
         private void Tip_Button_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(read));
+            Frame.Navigate(typeof(test));
             
         }
     }

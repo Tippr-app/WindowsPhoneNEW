@@ -22,6 +22,8 @@ namespace tipper_WP
     /// </summary>
     public sealed partial class tipping : Page
     {
+        data bar;
+        string code;
         public tipping()
         {
             this.InitializeComponent();
@@ -34,6 +36,9 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            bar = e.Parameter as data;
+            code = bar.code;
+            scannedtext.Text = code; 
         }
 
         private void confirmAmount_Click(object sender, RoutedEventArgs e)
@@ -43,7 +48,7 @@ namespace tipper_WP
 
         private void goback_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(read));
+            Frame.Navigate(typeof(test));
         }
 
         private void quickTip1_Click(object sender, RoutedEventArgs e)

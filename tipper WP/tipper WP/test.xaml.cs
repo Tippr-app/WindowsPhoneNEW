@@ -15,7 +15,6 @@ using Windows.Media;
 using Windows.Media.Capture;
 using Windows.Media.MediaProperties;
 using Windows.Phone.UI.Input;
-using System.Windows;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.System.Display;
@@ -29,20 +28,22 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using ZXing;
 using ZXing.Common;
-using tipper_WP;
-
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
-namespace tippr_wp
+
+namespace tipper_WP
 {
-    public sealed partial class read : Page
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class test : Page
     {
+        //vars
         DisplayRequest m_displayRequest = new DisplayRequest();
         MediaCapture m_capture;
-       ContinuousAutoFocus m_autoFocus;
+        ContinuousAutoFocus m_autoFocus;
         bool m_initializing;
-
-
         SystemMediaTransportControls m_mediaControls;
 
         BarcodeReader m_reader = new BarcodeReader
@@ -56,13 +57,19 @@ namespace tippr_wp
         Stopwatch m_time = new Stopwatch();
         volatile bool m_snapRequested;
 
-        public read()
+
+
+        public test()
         {
             this.InitializeComponent();
-
-            // this.NavigationCacheMode = NavigationCacheMode.Required;
+            this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 
+        /// <summary>
+        /// Invoked when this page is about to be displayed in a Frame.
+        /// </summary>
+        /// <param name="e">Event data that describes how this page was reached.
+        /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             // Disable app UI rotation
@@ -96,7 +103,7 @@ namespace tippr_wp
         }
 
 
-        public void App_Resuming(object sender, object e)
+        private void App_Resuming(object sender, object e)
         {
             // Dispatch call to the UI thread since the event may get fired on some other thread
             var ignore = Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
@@ -105,7 +112,7 @@ namespace tippr_wp
             });
         }
 
-        public void App_Suspending(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
+        private void App_Suspending(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
         {
             // Dispatch call to the UI thread since the event may get fired on some other thread
             var ignore = Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
@@ -114,7 +121,7 @@ namespace tippr_wp
             });
         }
 
-       public async void Current_VisibilityChanged(object sender, VisibilityChangedEventArgs e)
+        async void Current_VisibilityChanged(object sender, VisibilityChangedEventArgs e)
         {
             if (e.Visible)
             {
@@ -126,8 +133,7 @@ namespace tippr_wp
             }
         }
 
-
-        public void capture_Failed(MediaCapture sender, MediaCaptureFailedEventArgs errorEventArgs)
+        void capture_Failed(MediaCapture sender, MediaCaptureFailedEventArgs errorEventArgs)
         {
             // Dispatch call to the UI thread since the event may get fired on some other thread
             var ignore = Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
@@ -166,23 +172,23 @@ namespace tippr_wp
                 await capture.VideoDeviceController.SetMediaStreamPropertiesAsync(MediaStreamType.VideoPreview, format);
 
                 // Make the preview full screen
-                //var scale = Math.Min(this.ActualWidth / format.Width, this.ActualHeight / format.Height);
-                //preview.Width = format.Width;
-                //preview.Height = format.Height;
-                //preview.RenderTransformOrigin = new Point(.5, .5);
-                //preview.RenderTransform = new ScaleTransform { ScaleX = scale, ScaleY = scale };
-                //BarcodeOutline.Width = format.Width;
-                //BarcodeOutline.Height = format.Height;
-                //BarcodeOutline.RenderTransformOrigin = new Point(.5, .5);
-                //BarcodeOutline.RenderTransform = new ScaleTransform { ScaleX = scale, ScaleY = scale };
+                var scale = Math.Min(this.ActualWidth / format.Width, this.ActualHeight / format.Height);
+                Preview.Width = format.Width;
+                Preview.Height = format.Height;
+                Preview.RenderTransformOrigin = new Point(.5, .5);
+                Preview.RenderTransform = new ScaleTransform { ScaleX = scale, ScaleY = scale };
+                BarcodeOutline.Width = format.Width;
+                BarcodeOutline.Height = format.Height;
+                BarcodeOutline.RenderTransformOrigin = new Point(.5, .5);
+                BarcodeOutline.RenderTransform = new ScaleTransform { ScaleX = scale, ScaleY = scale };
 
                 // Enable QR code detection
                 var definition = new LumiaAnalyzerDefinition(ColorMode.Yuv420Sp, 640, AnalyzeBitmap);
                 await capture.AddEffectAsync(MediaStreamType.VideoPreview, definition.ActivatableClassId, definition.Properties);
-                
+
                 // Start preview
                 m_time.Restart();
-                preview.Source = capture;
+                Preview.Source = capture;
                 await capture.StartPreviewAsync();
 
                 capture.Failed += capture_Failed;
@@ -240,7 +246,9 @@ namespace tippr_wp
                 else
                 {
                     TextLog.Text = String.Format("[{0,4}ms] {1}", elapsedTimeInMS, result.Text);
-
+                    MessageDialog msg = new MessageDialog(result.Text);
+                    data bar = new data(result.Text);
+                    Frame.Navigate(typeof(tipping), bar);
                     if (m_autoFocus != null)
                     {
                         m_autoFocus.BarcodeFound = true;
@@ -279,9 +287,9 @@ namespace tippr_wp
         }
 
         // Must be called on the UI thread
-        public async Task DisposeCaptureAsync()
+        private async Task DisposeCaptureAsync()
         {
-            preview.Source = null;
+            Preview.Source = null;
 
             if (m_autoFocus != null)
             {
@@ -309,7 +317,7 @@ namespace tippr_wp
         private void Snap_Click(object sender, RoutedEventArgs e)
         {
             m_snapRequested = true;
-           
         }
+
     }
 }
