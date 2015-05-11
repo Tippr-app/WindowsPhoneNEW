@@ -149,3 +149,5 @@ C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\Debug\zxing.winrt.pri
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\tipper WP.csproj.GenerateResource.Cache
 C:\Users\Morris Lowitz\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\zxing.winrt.pri.xml
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\tipper WP.exe
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\Debug\tipper WP.pdb

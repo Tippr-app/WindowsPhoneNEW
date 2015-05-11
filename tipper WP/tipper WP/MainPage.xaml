@@ -14,10 +14,11 @@
         <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Margin="30,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325"/>
         <TextBlock x:Name="passwordTitle" HorizontalAlignment="Left" Margin="30,271,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="30,303,0,0" VerticalAlignment="Top" Width="325"/>
-        <Button x:Name="loginButton" Content="Log-In" HorizontalAlignment="Center" Margin="145.5,419,145.5,0" VerticalAlignment="Top" Click="loginButton_Click"/>
+        <Button x:Name="loginButton" Content="Log-In" HorizontalAlignment="Center" Margin="136,369,155,0" VerticalAlignment="Top" Click="loginButton_Click"/>
         <TextBlock x:Name="newuserTitle" HorizontalAlignment="Center" Margin="174.162,0,173.838,75.2" TextWrapping="Wrap" Text="New User?" VerticalAlignment="Bottom" SelectionChanged="newuserTitle_SelectionChanged" Tapped="newuserTitle_Tapped"/>
         <TextBlock x:Name="forgotUset" HorizontalAlignment="Right" Margin="0,243,51.697,0" TextWrapping="Wrap" Text="forgot user name?" VerticalAlignment="Top"/>
         <TextBlock x:Name="forgotPassword" HorizontalAlignment="Right" Margin="0,355,51.937,0" TextWrapping="Wrap" Text="forgot password?" VerticalAlignment="Top"/>
-
+        <Button Name="ButtonLogin" Click="ButtonLogin_Click" 
+                Visibility="Visible" Margin="95,444,0,139">Sign in with facebook</Button>
     </Grid>
 </Page>

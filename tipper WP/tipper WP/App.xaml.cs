@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
+using Microsoft.WindowsAzure.MobileServices;  
 //this is a test 
 
 
@@ -22,11 +24,18 @@ using Windows.UI.Xaml.Navigation;
 
 namespace tipper_WP
 {
+
+
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     public sealed partial class App : Application
     {
+
+       public static MobileServiceClient MobileService = new MobileServiceClient(
+    "https://tippr.azure-mobile.net/",
+    "wquGAwtmSIqqGvoTCqrigaqsSljhPh78"
+);
         private TransitionCollection transitions;
 
         /// <summary>
@@ -128,6 +137,21 @@ namespace tipper_WP
 
             // TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            // Windows Phone 8.1 requires you to handle the respose from the WebAuthenticationBroker.
+#if WINDOWS_PHONE_APP
+            if (args.Kind == ActivationKind.WebAuthenticationBrokerContinuation)
+            {
+                // Completes the sign-in process started by LoginAsync.
+                // Change 'MobileService' to the name of your MobileServiceClient instance. 
+                App.MobileService.LoginComplete(args as WebAuthenticationBrokerContinuationEventArgs);
+            }
+#endif
+
+            base.OnActivated(args);
         }
     }
 }
