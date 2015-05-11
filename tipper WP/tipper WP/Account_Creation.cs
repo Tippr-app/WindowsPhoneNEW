@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Braintree;
 
 namespace tipper_WP
 {
@@ -35,6 +36,8 @@ namespace tipper_WP
             phone = _phone;
             ccNumber = _ccNumber;
             exp = _exp; 
+            customerID = _customerID
+            create_account();
         }
 
        /// <summary>
@@ -44,8 +47,26 @@ namespace tipper_WP
         public bool create_account()
         {
             //TODO: insert code here 
+            var gateway = new BraintreeGateway
+            {
+                Environment = Braintree.Environment.SANDBOX,
+                MerchantId = "bmb8xhsjp2p9pb75",
+                PublicKey = "vcy2btmbyxcpjr9p",
+                PrivateKey = "bf218a4db6e6146be2a4855e4774dd16"
+            };
+            var request = new CustomerRequest
+            {
+                FirstName = this.firstName,
+                LastName = this.lastName,
+                Email = this.email,
+                Phone = this.phone,
+                Id = this.customerID
+                
+            };
+            Result<Customer> result = gateway.Customer.Create(request);
 
-            return true;
+            bool success = result.IsSuccess();
+            return success;
         }
 
 
