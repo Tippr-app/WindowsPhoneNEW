@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Braintree;
 
 namespace tipper_WP
 {
@@ -38,6 +39,8 @@ namespace tipper_WP
             phone = _phone;
             ccNumber = _ccNumber;
             exp = _exp; 
+            customerID = _customerID;
+            create_account();
         }
         public Account_Creation()
         { }
@@ -51,8 +54,62 @@ namespace tipper_WP
         public bool create_account()
         {
             //TODO: insert code here 
+            var gateway = new BraintreeGateway
+            {
+                Environment = Braintree.Environment.SANDBOX,
+                MerchantId = "bmb8xhsjp2p9pb75",
+                PublicKey = "vcy2btmbyxcpjr9p",
+                PrivateKey = "bf218a4db6e6146be2a4855e4774dd16"
+            };
+            
+            var request = new CustomerRequest
+            {
+                FirstName = this.firstName,
+                LastName = this.lastName,
+                Email = this.email,
+                Phone = this.phone,
+                Id = this.customerID,
+                CreditCard = new CreditCardRequest
+                {
+                    Number = this.ccNumber,
+                    CVV = this.ccv,
+                    ExpirationDate = this.exp,
+                    CardholderName = this.firstName + " " + this.lastName
+                }
 
-            return true;
+
+            };
+            Result<Customer> result = gateway.Customer.Create(request);
+
+            bool success = result.IsSuccess();
+            if (success){
+                createAddress();
+            }
+            return success;
+        }
+        public bool createAddress(){
+            var gateway = new BraintreeGateway
+            {
+                Environment = Braintree.Environment.SANDBOX,
+                MerchantId = "bmb8xhsjp2p9pb75",
+                PublicKey = "vcy2btmbyxcpjr9p",
+                PrivateKey = "bf218a4db6e6146be2a4855e4774dd16"
+            };
+            var request2 = new AddressRequest
+            {
+                FirstName = this.firstName,
+                LastName = this.lastName,
+                StreetAddress = this.street_address,
+                Locality = this.city,
+                Region = this.state,
+                PostalCode = this.zip,
+                CountryCodeAlpha2 = "US"
+            };
+
+            Result<Address> result = gateway.Address.Create(this.customerID, request2);
+            bool success = result.IsSuccess();
+
+            return success;
         }
 
 
