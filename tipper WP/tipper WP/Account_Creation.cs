@@ -8,6 +8,9 @@ namespace tipper_WP
 {
     class Account_Creation
     {
+        
+      
+
         public string customerID { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -36,6 +39,10 @@ namespace tipper_WP
             ccNumber = _ccNumber;
             exp = _exp; 
         }
+        public Account_Creation()
+        { }
+
+       
 
        /// <summary>
        /// create account 

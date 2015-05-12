@@ -153,7 +153,7 @@ namespace tipper_WP
             await AuthenticateAsync();
 
             // Hide the login button and load items from the mobile service.
-            this.ButtonLogin.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            Frame.Navigate(typeof(register_screen));
             
         }
     }
