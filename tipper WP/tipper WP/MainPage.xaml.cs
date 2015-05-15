@@ -151,9 +151,9 @@ namespace tipper_WP
         {
             // Login the user and then load data from the mobile service.
             await AuthenticateAsync();
-
+            string UID = user.UserId;
             // Hide the login button and load items from the mobile service.
-            Frame.Navigate(typeof(register_screen));
+            Frame.Navigate(typeof(register_screen), UID);
             
         }
     }

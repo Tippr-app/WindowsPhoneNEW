@@ -214,3 +214,4 @@ C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Deb
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ZXing.pri.xml
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Braintree-2.41.0.dll

@@ -7,12 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <ScrollViewer Margin="10,0.333,10,-153.333" Height="793" VerticalAlignment="Top" 
-  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Enabled"
+    <ScrollViewer Margin="10,-76.667,10,-153.333" Height="870" VerticalAlignment="Top" 
+  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Auto"
   AllowDrop="False" BringIntoViewOnFocusChange="True"
-  HorizontalScrollMode="Disabled" IsHoldingEnabled="True" >
+  HorizontalScrollMode="Disabled" IsHoldingEnabled="True" ZoomMode="Enabled" >
 
-        <Grid x:Name="username_text_box_" Height="843" Width="380">
+        <Grid x:Name="username_text_box_" Height="916" Width="380">
             <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
             <TextBlock x:Name="AccountInfoTitle" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" Text="Account Information" VerticalAlignment="Top" FontSize="14"/>
             <TextBlock x:Name="firstNamelable_" HorizontalAlignment="Left" Margin="55,191,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top"/>

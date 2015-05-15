@@ -27,7 +27,7 @@ namespace tipper_WP
         {
             this.InitializeComponent();
         }
-
+        public string UID2;
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>
@@ -35,6 +35,9 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+
+            UID2 = e.Parameter as string;
+            
         }
         /// <summary>
         /// creation of user accounts 
@@ -44,21 +47,20 @@ namespace tipper_WP
         private async void confirmButtonUser_Click(object sender, RoutedEventArgs e)
         {
             //dummy code 
-            string id = "test"; 
+            string id = UID2; 
             //user account object 
             //public Account_Creation(string _customerID, string _firstName, string _lastNAme, string _email, string _streetAddress, string _city, string _state, string _zip, string _phone, string _ccNumber, string _exp, string _ccv)
             Account_Creation new_account = new Account_Creation(id, firstName.Text, lastName.Text, email.Text, address.Text, state.Text, city.Text, zip.Text, phone.Text, cardNum.Text, exp.Text, ccv.Text);
 
             
-            if (!field_check())
-            {
-                var dialog = new MessageDialog("Fields cannot be left blank");
-                dialog.Commands.Add(new UICommand("OK"));
-                await dialog.ShowAsync();
-                Frame.Navigate(typeof(register_screen));//fuck you people 
-            }
-            else
-            {
+            //if (!field_check())
+            //{
+            //    var dialog = new MessageDialog("Fields cannot be left blank");
+            //    dialog.Commands.Add(new UICommand("OK"));
+            //    await dialog.ShowAsync();
+            //    Frame.Navigate(typeof(register_screen));//fuck you people 
+            //}
+            
                 if (new_account.create_account())
                 {
                     var dialog = new MessageDialog("Your Account Has Been Created");
@@ -66,7 +68,14 @@ namespace tipper_WP
                     await dialog.ShowAsync();
                     Frame.Navigate(typeof(confirm));
                 }
-            }
+            
+                else
+                {
+                    var dialog = new MessageDialog("Your Account Has Been Created");
+                    dialog.Commands.Add(new UICommand("OK"));
+                    await dialog.ShowAsync();
+                    Frame.Navigate(typeof(confirm));
+                }
         }
 
         private bool field_check()

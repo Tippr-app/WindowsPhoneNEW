@@ -7,31 +7,48 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer Margin="10,-76.667,10,-153.333" Height="870" VerticalAlignment="Top" 
+  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Auto"
+  AllowDrop="False" BringIntoViewOnFocusChange="True"
+  HorizontalScrollMode="Disabled" IsHoldingEnabled="True" ZoomMode="Enabled" >
 
-    <Grid x:Name="username_text_box_">
-        <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
-        <TextBlock x:Name="AccountInfoTitle" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" Text="Account Information" VerticalAlignment="Top" FontSize="14"/>
-        <TextBlock x:Name="usernameLabel" HorizontalAlignment="Left" Margin="50,187,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="passwordLabel" HorizontalAlignment="Left" Margin="53,226,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="passwordLabel_Copy" HorizontalAlignment="Left" Margin="50,264,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="emailLabel" HorizontalAlignment="Left" Margin="50,310,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="mailingAddressLable" HorizontalAlignment="Left" Margin="10,351,0,0" TextWrapping="Wrap" Text="Mailing Address:" VerticalAlignment="Top" FontSize="14"/>
-        <TextBlock x:Name="address1Lable" HorizontalAlignment="Left" Margin="50,383,0,0" TextWrapping="Wrap" Text="Address 1:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="address2Lable" HorizontalAlignment="Left" Margin="50,422,0,0" TextWrapping="Wrap" Text="Address 2:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="___cityLable" HorizontalAlignment="Left" Margin="50,467,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="stateLable" HorizontalAlignment="Left" Margin="50,505,0,0" TextWrapping="Wrap" Text="State:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="___ZipLable" HorizontalAlignment="Left" Margin="50,549,0,0" TextWrapping="Wrap" Text="Zipcode:" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='1' x:Name="confirmButtonUser" Content="Confirm" HorizontalAlignment="Right" Margin="0,0,36,1" VerticalAlignment="Bottom"                                />
-        <TextBox x:Name="username_box__Copy" HorizontalAlignment="Left" Margin="142,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="142,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="address1" HorizontalAlignment="Left" Margin="142,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="address_2" HorizontalAlignment="Left" Margin="142,415,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="citybox" HorizontalAlignment="Left" Margin="142,457,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="state_box" HorizontalAlignment="Left" Margin="142,497,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <TextBox x:Name="zip_box" HorizontalAlignment="Left" Margin="142,536,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
-        <PasswordBox x:Name="pass" HorizontalAlignment="Left" Margin="142,226,0,0" VerticalAlignment="Top" Height="13" Width="205"/>
-        <PasswordBox x:Name="confirmpass" Margin="140,265,53,0" VerticalAlignment="Top" Height="12"/>
+        <Grid x:Name="username_text_box_" Height="916" Width="380">
+            <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
+            <TextBlock x:Name="AccountInfoTitle" HorizontalAlignment="Left" Margin="10,165,0,0" TextWrapping="Wrap" Text="Account Information" VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="firstNamelable_" HorizontalAlignment="Left" Margin="55,191,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="passwordLabel" HorizontalAlignment="Left" Margin="58,274,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="passwordLabel_Copy" HorizontalAlignment="Left" Margin="55,312,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="emailLabel" HorizontalAlignment="Left" Margin="55,358,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="mailingAddressLable" HorizontalAlignment="Left" Margin="15,399,0,0" TextWrapping="Wrap" Text="Mailing Address:" VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="address1Lable" HorizontalAlignment="Left" Margin="55,431,0,0" TextWrapping="Wrap" Text="Address 1:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="phonelable" HorizontalAlignment="Left" Margin="55,470,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top"/>
+            <TextBlock x:Name="___cityLable" HorizontalAlignment="Left" Margin="55,515,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="stateLable" HorizontalAlignment="Left" Margin="55,553,0,0" TextWrapping="Wrap" Text="State:" VerticalAlignment="Top"/>
+            <TextBlock x:Name="___ZipLable" HorizontalAlignment="Left" Margin="55,597,0,0" TextWrapping="Wrap" Text="Zipcode:" VerticalAlignment="Top"/>
+            <Button x:ConnectionId='1' x:Name="confirmButtonUser" Content="Confirm" HorizontalAlignment="Right" Margin="0,0,28,44" VerticalAlignment="Bottom"                                />
+            <TextBox x:Name="firstName" HorizontalAlignment="Left" Margin="147,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="email" HorizontalAlignment="Left" Margin="147,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="address" HorizontalAlignment="Left" Margin="147,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="147,463,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="city" HorizontalAlignment="Left" Margin="147,505,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="state" HorizontalAlignment="Left" Margin="147,545,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBox x:Name="zip" HorizontalAlignment="Left" Margin="147,584,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <PasswordBox x:Name="pass" HorizontalAlignment="Left" Margin="147,274,0,0" VerticalAlignment="Top" Height="13" Width="205"/>
+            <PasswordBox x:Name="confirmpass" Margin="145,313,48,0" VerticalAlignment="Top" Height="12"/>
+            <TextBlock x:Name="carlable" HorizontalAlignment="Left" Margin="15,630,0,0" TextWrapping="Wrap" Text="Credit Card:" VerticalAlignment="Top" FontSize="14"/>
+            <TextBlock x:Name="cardLable" HorizontalAlignment="Left" Margin="55,663,0,0" TextWrapping="Wrap" Text="CardNum:" VerticalAlignment="Top"/>
+            <TextBox x:Name="cardNum" HorizontalAlignment="Left" Margin="147,650,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
+            <TextBlock x:Name="expLable" HorizontalAlignment="Left" Margin="55,706,0,0" TextWrapping="Wrap" Text="Exp:" VerticalAlignment="Top"/>
+            <TextBox x:Name="exp" HorizontalAlignment="Left" Margin="147,694,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12" PlaceholderText="MM/YYYY"/>
+            <TextBlock x:Name="ccvLable_" HorizontalAlignment="Left" Margin="55,755,0,0" TextWrapping="Wrap" Text="CCV:" VerticalAlignment="Top"/>
+            <TextBox x:Name="ccv" HorizontalAlignment="Left" Margin="145,742,0,0" VerticalAlignment="Top" Height="12"/>
+            <TextBlock x:Name="lastNAme" HorizontalAlignment="Left" Margin="55,235,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top"/>
+            <TextBox x:Name="lastName" HorizontalAlignment="Left" Margin="147,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="11" Width="205" Height="12"/>
 
-    </Grid>
+        </Grid>
+
+
+
+    </ScrollViewer>
 </Page>
 
