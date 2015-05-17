@@ -7,8 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <ScrollViewer Margin="10,-246.667,10,-153.333" Height="1040" VerticalAlignment="Top" 
-  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Enabled"
+    <ScrollViewer Margin="10,-76.667,10,-153.333" Height="870" VerticalAlignment="Top" 
+  VerticalScrollBarVisibility="Visible" VerticalScrollMode="Auto"
   AllowDrop="False" BringIntoViewOnFocusChange="True"
   HorizontalScrollMode="Disabled" IsHoldingEnabled="True" ZoomMode="Enabled" >
 

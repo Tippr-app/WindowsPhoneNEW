@@ -215,11 +215,3 @@ C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Deb
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ZXing.pri.xml
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\ARM\Debug\Braintree-2.41.0.dll
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\layout.resfiles.intermediate
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\Resources.resfiles.intermediate
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\pri.resfiles.intermediate
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml
-C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\ARM\Debug\Microsoft.WindowsAzure.Mobile\priconfig.xml.intermediate

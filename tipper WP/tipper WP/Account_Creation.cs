@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-
-
-
+using System.Text;
 using System.Threading.Tasks;
 using Braintree;
 
@@ -43,9 +39,7 @@ namespace tipper_WP
             phone = _phone;
             ccNumber = _ccNumber;
             exp = _exp; 
-            var new_id = Regex.Replace(_customerID, "[^0-9]", "");
-            customerID = new_id;
-            ccv = _ccv;
+            customerID = _customerID;
             create_account();
         }
         public Account_Creation()
@@ -75,7 +69,6 @@ namespace tipper_WP
                 Email = this.email,
                 Phone = this.phone,
                 Id = this.customerID,
-                CustomerId = this.customerID,
                 CreditCard = new CreditCardRequest
                 {
                     Number = this.ccNumber,
