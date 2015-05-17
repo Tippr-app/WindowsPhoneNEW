@@ -12,7 +12,9 @@ namespace TestBrain
     {
         static void Main(string[] args)
         {
-   
+            Account_Creation test = new Account_Creation("11111141", "Ed", "Smith", "wsmit@gmail.com", "222 Test Lane", "Philadelphia", "PA", "19104", "2151234567", "4111111111111111", "08/2016", "122");
+            //test.createAddress();
+            /*
             var gateway = new BraintreeGateway
             {
                 Environment = Braintree.Environment.SANDBOX,
@@ -23,7 +25,7 @@ namespace TestBrain
 
             TransactionRequest request = new TransactionRequest
             {
-                Amount = 1.25M,
+                Amount = 0M,
                 CreditCard = new TransactionCreditCardRequest
                 {
                     Number = "378282246310005",
@@ -55,6 +57,8 @@ namespace TestBrain
                     Console.WriteLine("  Message: " + error.Message);
                 }
             }
+             * */
         }
+       
     }
 }
