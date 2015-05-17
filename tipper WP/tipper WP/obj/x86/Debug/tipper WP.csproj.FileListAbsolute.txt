@@ -215,3 +215,12 @@ C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\x86\Deb
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\x86\Debug\ZXing.pri.xml
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\Braintree-2.41.0.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\System.Data.Linq.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\Microsoft.Phone.Data.Internal.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\Microsoft.Phone.Interop.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\Microsoft.Phone.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\System.Net.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\System.Windows.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\Microsoft.Devices.Camera.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\System.Device.dll
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\tipper WP\tipper WP\bin\x86\Debug\LocationService.Interop.dll

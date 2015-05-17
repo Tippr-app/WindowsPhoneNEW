@@ -183,9 +183,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Braintree-2.41.0">
-      <HintPath>..\packages\Braintree.2.41.0\lib\Braintree-2.41.0.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Graphics.Canvas">
       <HintPath>..\packages\Win2D.0.0.16\lib\wpa\Microsoft.Graphics.Canvas.winmd</HintPath>
     </Reference>
@@ -212,7 +209,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Help\Lumia Imaging SDK.chm" />
     <None Include="packages.config" />
     <None Include="QrCodeDetector.wprp" />

@@ -59,7 +59,8 @@ namespace tipper_WP
             //    dialog.Commands.Add(new UICommand("OK"));
             //    await dialog.ShowAsync();
             //    Frame.Navigate(typeof(register_screen));//fuck you people 
-            //}
+            //} 
+            new_account.create_account();
             
                 if (new_account.create_account())
                 {
