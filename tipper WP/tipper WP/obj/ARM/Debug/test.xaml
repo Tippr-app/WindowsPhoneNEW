@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="tipper_WP.test"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tipper_WP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="TextLog" Text="TextBox" VerticalAlignment="Bottom" Visibility="Collapsed"/>
+        <CaptureElement x:Name="Preview" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="400"/>
+        <Polyline x:Name="BarcodeOutline" Stroke="Red" StrokeThickness="3" />
+        <Button x:ConnectionId='1' x:Name="Snap" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Snap"                   />
+    </Grid>
+</Page>
+

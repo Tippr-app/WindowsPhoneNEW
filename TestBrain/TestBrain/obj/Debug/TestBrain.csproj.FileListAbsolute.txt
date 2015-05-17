@@ -10,3 +10,4 @@ C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\TestBrain\TestBrain\obj\Debug\T
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\TestBrain\TestBrain\bin\Debug\TestBrain.exe
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\TestBrain\TestBrain\bin\Debug\TestBrain.pdb
 C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\TestBrain\TestBrain\obj\Debug\TestBrain.csprojResolveAssemblyReference.cache
+C:\Users\Morris\Documents\GitHub\WindowsPhoneNEW\TestBrain\TestBrain\bin\Debug\Braintree-2.41.0.dll

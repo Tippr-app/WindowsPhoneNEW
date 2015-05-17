@@ -50,8 +50,8 @@ namespace tipper_WP
             string id = UID2; 
             //user account object 
             //public Account_Creation(string _customerID, string _firstName, string _lastNAme, string _email, string _streetAddress, string _city, string _state, string _zip, string _phone, string _ccNumber, string _exp, string _ccv)
-            Account_Creation new_account = new Account_Creation(id, firstName.Text, lastName.Text, email.Text, address.Text, state.Text, city.Text, zip.Text, phone.Text, cardNum.Text, exp.Text, ccv.Text);
-
+           // Account_Creation new_account = new Account_Creation(id, firstName.Text, lastName.Text, email.Text, address.Text, state.Text, city.Text, zip.Text, phone.Text, cardNum.Text, exp.Text, ccv.Text);
+            Account_Creation new_account = new Account_Creation("11141141", "Ed", "Smith", "wsmit@gmail.com", "222 Test Lane", "Philadelphia", "PA", "19104", "2151234567", "4111111111111111", "08/2016", "122");
             
             //if (!field_check())
             //{

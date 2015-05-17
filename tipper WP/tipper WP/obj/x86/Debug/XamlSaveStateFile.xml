@@ -2,6 +2,7 @@
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\morris lowitz\documents\github\windowsphonenew\tipper wp\tipper wp\obj\x86\debug\intermediatexaml\tipper wp.exe" HashGuid="fafd214d-55ae-226a-c2ac-9ec140f837de" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\morris\documents\github\windowsphonenew\testbrain\testbrain\bin\debug\braintree-2.41.0.dll" HashGuid="6903b00f-3c9e-8a67-d16d-2e201f156bcc" />
     <ReferenceAssembly PathName="c:\users\morris\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81-hidden\x86\lumia.imaging.managed.dll" HashGuid="4995ac95-997b-6a34-dd96-7fb05ef15210" />
     <ReferenceAssembly PathName="c:\users\morris\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81\x86\lumia.imaging.winmd" HashGuid="d16e02ff-554c-0883-c15e-9c1ee6c065c5" />
     <ReferenceAssembly PathName="c:\users\morris\documents\github\windowsphonenew\tipper wp\packages\lumiaimagingsdk.2.0.208\lib\wpa81\x86\lumia.interopservices.windowsruntime.winmd" HashGuid="be026b97-4e17-03e1-494d-e8a25f3c2582" />
