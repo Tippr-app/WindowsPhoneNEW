@@ -45,8 +45,8 @@ namespace TestBrain
             ccv = _ccv;
             //create_account();
             //InsertAccount();
-           // newTransaction(2.5, 11111140, 11111141);
-            Console.Write(getBalance(11111141));
+            runTransaction(11111140, 11111141, 2.5);
+            //Console.Write(getBalance(11111141));
         }
 
         /// <summary>
@@ -218,6 +218,7 @@ namespace TestBrain
             }
             return true;
         }
+
         public bool updateBalance(double newBalance, int custID)
         {
             try
@@ -247,6 +248,18 @@ namespace TestBrain
                 return false;
             }
             return true;
+        }
+        public void runTransaction(int toID, int fromID, double amount)
+        {
+            double finalBalance = getBalance(fromID) - amount;
+            if (finalBalance >= 0)
+            {
+                updateBalance(finalBalance, fromID);
+                finalBalance = getBalance(toID) + amount;
+                updateBalance(finalBalance, toID);
+                newTransaction(amount, toID, fromID);
+            }
+           
         }
 
     }
