@@ -96,6 +96,8 @@
     </Compile>
     <Compile Include="ContinuousAutoFocus.cs" />
     <Compile Include="data.cs" />
+    <Compile Include="postuser.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -220,6 +222,10 @@
     <None Include="packages.config" />
     <None Include="QrCodeDetector.wprp" />
     <None Include="VideoEffect-master.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\NewFolder1\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

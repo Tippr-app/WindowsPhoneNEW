@@ -32,9 +32,9 @@ namespace tipper_WP
     public sealed partial class App : Application
     {
 
-       public static MobileServiceClient MobileService = new MobileServiceClient(
+     public static MobileServiceClient MobileService = new MobileServiceClient(
     "https://tippr.azure-mobile.net/",
-    "wquGAwtmSIqqGvoTCqrigaqsSljhPh78"
+    "VcZZjiIMpRyLWiDWzEawOfBIKiXhLP12"
 );
         private TransitionCollection transitions;
 
