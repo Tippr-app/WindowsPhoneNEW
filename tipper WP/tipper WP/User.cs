@@ -4,10 +4,14 @@ using System.Text;
 using Newtonsoft.Json;
 
 
-namespace tipper_WP.Data
+
+namespace tipper_WP
 {
     public class User
     {
+       
+
+       
         public string Id { get; set; }
 
         [JsonProperty(PropertyName = "username")]

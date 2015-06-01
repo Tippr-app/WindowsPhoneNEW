@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Net;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -41,6 +42,32 @@ namespace tipper_WP
             Frame.Navigate(typeof(tipping));
         }
 
+        private void getbal()
+        {
+            string walletUri = "http://tippr.morrislowitz.com/dummydata/senderbalence_old";
+                HttpWebRequest shit = (HttpWebRequest)HttpWebRequest.Create(walletUri);
+            //get
+                shit.BeginGetResponse(GetAvatarImageCallback, shit);
+
+        }
+
+        void GetAvatarImageCallback(IAsyncResult result)
+        {
+            HttpWebRequest request = result.AsyncState as HttpWebRequest;
+            if (request != null)
+            {
+                try
+                {
+                    WebResponse response = request.EndGetResponse(result);
+                 ;
+                }
+                catch (WebException e)
+                {
+                    
+                    return;
+                }
+            }
+        }
         private void goback_Tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(menu));
