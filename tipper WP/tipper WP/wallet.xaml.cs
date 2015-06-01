@@ -24,6 +24,8 @@ namespace tipper_WP
     /// </summary>
     public sealed partial class wallet : Page
     {
+        public string bal;
+
         public wallet()
         {
             this.InitializeComponent();
@@ -36,6 +38,13 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var thing = e.Parameter as string; 
+            if(thing.Length > 0)
+            {
+                balenceTitle_Copy.Text = "$" + thing;
+            }
+
+
         }
 
 
@@ -50,7 +59,7 @@ namespace tipper_WP
                 httpClient.DefaultRequestHeaders.Accept.TryParseAdd("application/json");
 
                 //Call
-                string ResponseString = await httpClient.GetStringAsync(
+                string bal = await httpClient.GetStringAsync(
                     new Uri("http://tippr.morrislowitz.com/dummydata/senderbalence_old"));
                 //Replace current URL with your URL
             }
@@ -99,7 +108,9 @@ namespace tipper_WP
 
         private void add_funds_button_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(menu));
+            GetaString();
+               
+            Frame.Navigate(typeof(menu),bal);
         }
     }
 }
