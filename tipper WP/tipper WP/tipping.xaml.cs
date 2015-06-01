@@ -63,7 +63,8 @@ namespace tipper_WP
 
         private void quickTip3_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(tipping));
+            ammountBox.Text = "5.00";
+            //Frame.Navigate(typeof(tipping));
         }
     }
 }

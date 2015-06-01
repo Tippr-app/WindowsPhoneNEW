@@ -22,6 +22,8 @@ namespace tipper_WP
     /// </summary>
     public sealed partial class menu : Page
     {
+
+        string fuck;
         public menu()
         {
             this.InitializeComponent();
@@ -34,11 +36,13 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            fuck = e.Parameter as string;
+           
         }
 
         private void wallent_button__Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(wallet));
+            Frame.Navigate(typeof(wallet),fuck);
         }
 
         private void goback_SelectionChanged(object sender, RoutedEventArgs e)
