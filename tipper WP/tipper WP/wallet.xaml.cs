@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Net;
+using Windows.Web.Http;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -35,6 +36,29 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+
+        public async void GetaString()
+        {
+            try
+            {
+                //Create HttpClient
+                HttpClient httpClient = new HttpClient();
+
+                //Define Http Headers
+                httpClient.DefaultRequestHeaders.Accept.TryParseAdd("application/json");
+
+                //Call
+                string ResponseString = await httpClient.GetStringAsync(
+                    new Uri("http://tippr.morrislowitz.com/dummydata/senderbalence_old"));
+                //Replace current URL with your URL
+            }
+
+            catch (Exception ex)
+            {
+                //....
+            }
         }
 
         private void settings_Tapped(object sender, TappedRoutedEventArgs e)
