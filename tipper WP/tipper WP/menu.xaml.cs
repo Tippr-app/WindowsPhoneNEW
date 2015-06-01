@@ -23,7 +23,7 @@ namespace tipper_WP
     public sealed partial class menu : Page
     {
 
-        string fuck;
+        string fuck = "";
         public menu()
         {
             this.InitializeComponent();
@@ -36,7 +36,8 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            fuck = e.Parameter as string;
+            if (e.Parameter != null)
+            { fuck = e.Parameter as string; }
            
         }
 

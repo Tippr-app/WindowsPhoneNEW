@@ -46,42 +46,9 @@ namespace tipper_WP
         /// <param name="e"></param>
         private async void confirmButtonUser_Click(object sender, RoutedEventArgs e)
         {
-            //dummy code 
-            string id = UID2; 
-            //user account object 
-            //public Account_Creation(string _customerID, string _firstName, string _lastNAme, string _email, string _streetAddress, string _city, string _state, string _zip, string _phone, string _ccNumber, string _exp, string _ccv)
-           // Account_Creation new_account = new Account_Creation(id, firstName.Text, lastName.Text, email.Text, address.Text, state.Text, city.Text, zip.Text, phone.Text, cardNum.Text, exp.Text, ccv.Text);
-            Account_Creation new_account = new Account_Creation("11141141", "Ed", "Smith", "wsmit@gmail.com", "222 Test Lane", "Philadelphia", "PA", "19104", "2151234567", "4111111111111111", "08/2016", "122");
-
-
-            User new_user = new User { Code = "111141", Username = "test" };
-            postuser send = new postuser();
-            send.Send_usr(new_user);
-
-            //if (!field_check())
-            //{
-            //    var dialog = new MessageDialog("Fields cannot be left blank");
-            //    dialog.Commands.Add(new UICommand("OK"));
-            //    await dialog.ShowAsync();
-            //    Frame.Navigate(typeof(register_screen));//fuck you people 
-            //} 
-            new_account.create_account();
             
-                if (new_account.create_account())
-                {
-                    var dialog = new MessageDialog("Your Account Has Been Created");
-                    dialog.Commands.Add(new UICommand("OK"));
-                    await dialog.ShowAsync();
                     Frame.Navigate(typeof(confirm));
-                }
-            
-                else
-                {
-                    var dialog = new MessageDialog("Your Account Has Been Created");
-                    dialog.Commands.Add(new UICommand("OK"));
-                    await dialog.ShowAsync();
-                    Frame.Navigate(typeof(confirm));
-                }
+                
         }
 
         private bool field_check()

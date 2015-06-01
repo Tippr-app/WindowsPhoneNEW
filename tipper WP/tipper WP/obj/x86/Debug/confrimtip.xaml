@@ -12,8 +12,8 @@
         <Image HorizontalAlignment="Center" Height="138" VerticalAlignment="Top" Width="175" Margin="112.5,10,112.5,0" Source="Assets/Tippr Logo.png"/>
         <TextBlock HorizontalAlignment="Left" Margin="49,230,0,0" TextWrapping="Wrap" Text="The Amount $" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock x:Name="ammount" HorizontalAlignment="Left" Margin="170,230,0,0" TextWrapping="Wrap" Text="5.00" VerticalAlignment="Top" RenderTransformOrigin="-0.241,0.641" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Left" Margin="243,230,0,0" TextWrapping="Wrap" Text="Has been tipped to" VerticalAlignment="Top" FontSize="14"/>
-        <TextBlock x:Name="tipeenametext" HorizontalAlignment="Left" Margin="170,297,0,0" TextWrapping="Wrap" Text="recipiant" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,230,0,0" TextWrapping="Wrap" Text="will be tipped to" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="tipeenametext" HorizontalAlignment="Left" Margin="170,297,0,0" TextWrapping="Wrap" Text="server 1 " VerticalAlignment="Top" FontSize="14"/>
         <Button x:ConnectionId='1' Content="OK" HorizontalAlignment="Left" Margin="136,460,0,0" VerticalAlignment="Top"                     />
 
     </Grid>

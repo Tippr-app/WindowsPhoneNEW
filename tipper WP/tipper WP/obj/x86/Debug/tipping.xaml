@@ -16,9 +16,9 @@
         <TextBox x:Name="ammountBox" HorizontalAlignment="Left" Margin="162,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.332,0.155" Height="19" Width="171"/>
         <Button x:ConnectionId='2' x:Name="confirmAmount" Content="Confirm" HorizontalAlignment="Right" Margin="0,296,29,0" VerticalAlignment="Top"                            />
         <TextBlock x:Name="quickTipTitle" HorizontalAlignment="Left" Margin="42,344,0,0" TextWrapping="Wrap" Text="Quick Tip:" VerticalAlignment="Top" FontSize="16"/>
-        <Button x:ConnectionId='3' x:Name="quickTip1" Content="quickTip1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145.5,380,145.5,0"                        />
-        <Button x:ConnectionId='4' x:Name="quickTip2" Content="quickTip2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,463,146,0"                        />
-        <Button x:ConnectionId='5' x:Name="quickTip3" Content="quickTip3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,552,146,0"                        />
+        <Button x:ConnectionId='3' x:Name="quickTip1" Content="$2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145.5,380,145.5,0"                        />
+        <Button x:ConnectionId='4' x:Name="quickTip2" Content="$3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,463,146,0"                        />
+        <Button x:ConnectionId='5' x:Name="quickTip3" Content="$5" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="145,552,146,0"                        />
         <TextBlock x:Name="scannedtext" HorizontalAlignment="Left" Margin="112,189,0,0" TextWrapping="Wrap" Text="QR Code Scanned!" VerticalAlignment="Top" FontSize="22"/>
 
     </Grid>

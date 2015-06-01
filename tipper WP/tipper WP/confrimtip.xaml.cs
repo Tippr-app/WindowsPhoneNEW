@@ -38,7 +38,7 @@ namespace tipper_WP
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string fuckme = "45.00"
+            string fuckme = "45.00";
             Frame.Navigate(typeof(menu),fuckme);
         }
     }

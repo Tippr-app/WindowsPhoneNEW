@@ -38,10 +38,18 @@ namespace tipper_WP
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            var thing = e.Parameter as string; 
-            if(thing.Length > 0)
+            String thing = e.Parameter as string; 
+            
+            if(thing != null)
             {
-                balenceTitle_Copy.Text = "$" + thing;
+                if (thing.Length > 0)
+                {
+                    balenceTitle_Copy.Text = "$" + thing;
+                }
+                else
+                {
+                    balenceTitle_Copy.Text = "$0.00";
+                }
             }
 
 
@@ -59,7 +67,7 @@ namespace tipper_WP
                 httpClient.DefaultRequestHeaders.Accept.TryParseAdd("application/json");
 
                 //Call
-                string bal = await httpClient.GetStringAsync(
+                 bal = await httpClient.GetStringAsync(
                     new Uri("http://tippr.morrislowitz.com/dummydata/senderbalence_old"));
                 //Replace current URL with your URL
             }
@@ -110,7 +118,7 @@ namespace tipper_WP
         {
             GetaString();
                
-            Frame.Navigate(typeof(menu),bal);
+            Frame.Navigate(typeof(wallet),"50.00");
         }
     }
 }

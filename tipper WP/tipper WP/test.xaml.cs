@@ -316,6 +316,8 @@ namespace tipper_WP
 
         private void Snap_Click(object sender, RoutedEventArgs e)
         {
+            data bar = new data("server 1");
+            Frame.Navigate(typeof(tipping), bar);
             m_snapRequested = true;
         }
 
